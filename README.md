@@ -1,5 +1,7 @@
 # MySpaceShooter-legacy-
-Game created with Microsoft XNA Game Studio 4.0. 
+Game created with Microsoft XNA Game Studio 4.0.
+
+Shoot asteroids to gain points in 10 exciting levels. There is even an end boss :-)
 
 One of my first software projects ever, so it may contain one or more bugs and code-issues ;-)
 
