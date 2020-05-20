@@ -214,13 +214,13 @@ namespace thunder146.MySpaceShooter
         private void ChangeLevel()
         {
             // Level 2 aktivieren
-            if ((int)(_gameState.ElapsedGameTime / 1000) == 15)
+            if ((int)(_gameState.ElapsedGameTime / 1000) == 20)
             {
                 _gameState.CurrentLevel = LevelSelection.Level2;
                 _gameState.LvlName = "2";
             }
             // Level 3 aktivieren
-            if ((int)(_gameState.ElapsedGameTime / 1000) == 30)
+            if ((int)(_gameState.ElapsedGameTime / 1000) == 40)
             {
                 _gameState.LaserMoveSpeed = -200;  // Halbieren, da doppelte Geschwindigkeit, weil der laser in level 1 und 2 bewegt wird
 
@@ -228,7 +228,7 @@ namespace thunder146.MySpaceShooter
                 _gameState.LvlName = "3";
             }
             // Level 4 aktivieren
-            if ((int)(_gameState.ElapsedGameTime / 1000) == 45)
+            if ((int)(_gameState.ElapsedGameTime / 1000) == 60)
             {
                 _gameState.LaserMoveSpeed = -400;
 
@@ -238,7 +238,7 @@ namespace thunder146.MySpaceShooter
                 _gameState.LvlName = "4";
             }
             // Level 5 aktivieren
-            if ((int)(_gameState.ElapsedGameTime / 1000) == 60)
+            if ((int)(_gameState.ElapsedGameTime / 1000) == 80)
             {
                 _gameState.LaserMoveSpeed = -400;
 
@@ -249,7 +249,7 @@ namespace thunder146.MySpaceShooter
                 _gameState.LvlName = "5";
             }
             // Level 6 aktivieren
-            if ((int)(_gameState.ElapsedGameTime / 1000) == 75)
+            if ((int)(_gameState.ElapsedGameTime / 1000) == 100)
             {
                 _gameState.LaserMoveSpeed = -200; // Halbieren, da doppelte Geschwindigkeit, weil der laser in level 1 und 2 bewegt wird
 
@@ -257,7 +257,7 @@ namespace thunder146.MySpaceShooter
                 _gameState.LvlName = "6";
             }
             // Level 7 aktivieren
-            if ((int)(_gameState.ElapsedGameTime / 1000) == 90)
+            if ((int)(_gameState.ElapsedGameTime / 1000) == 120)
             {
                 _gameState.LaserMoveSpeed = -400;
 
@@ -267,7 +267,7 @@ namespace thunder146.MySpaceShooter
                 _gameState.LvlName = "7";
             }
             // Level 8 aktivieren
-            if ((int)(_gameState.ElapsedGameTime / 1000) == 105)
+            if ((int)(_gameState.ElapsedGameTime / 1000) == 140)
             {
                 _gameState.LaserMoveSpeed = -400;
 
@@ -278,7 +278,7 @@ namespace thunder146.MySpaceShooter
                 _gameState.LvlName = "8";
             }
             // Level 9 aktivieren
-            if ((int)(_gameState.ElapsedGameTime / 1000) == 130)
+            if ((int)(_gameState.ElapsedGameTime / 1000) == 160)
             {
                 _gameState.LaserMoveSpeed = -200; // Halbieren, da doppelte Geschwindigkeit, weil der laser in level 1 und 2 bewegt wird
 
@@ -286,7 +286,7 @@ namespace thunder146.MySpaceShooter
                 _gameState.LvlName = "9";
             }
             // Final Boss
-            if ((int)(_gameState.ElapsedGameTime / 1000) == 145)
+            if ((int)(_gameState.ElapsedGameTime / 1000) == 180)
             {
                 _gameState.LaserMoveSpeed = -400;
 
