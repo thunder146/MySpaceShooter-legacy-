@@ -18,6 +18,6 @@ Run the Game
 
 Tested on Windows 10 Pro (1909)
 
-![Alt text](/Screenshots/Screenshot_1.png?raw=true)
 ![Alt text](/Screenshots/Screenshot_2.png?raw=true)
 ![Alt text](/Screenshots/Screenshot_3.png?raw=true)
+![Alt text](/Screenshots/Screenshot_1.png?raw=true)
